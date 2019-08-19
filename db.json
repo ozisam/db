@@ -70,15 +70,8 @@
       "firstName": "admin",
       "lastName": "admin",
       "accountExpired": true,
-      "accountLocked": false,
-      "passwordExpired": false,
-      "authorities": [
-        {
-          "id": 3,
-          "authority": "ROLE_ADMIN"
-        }
-      ],
-      "companies": []
+      "accountLocked": true,
+      "passwordExpired": false
     },
     {
       "id": 2,
@@ -141,7 +134,10 @@
           "authority": "ROLE_TRANSFORMER"
         }
       ],
-      "companies": []
+      "companies": [
+        2,
+        3
+      ]
     }
   ],
   "company": [
@@ -157,6 +153,54 @@
       "webSite": "www.vivaloziotom.it",
       "registrationLink": "https://ittandisciu.org/1234456",
       "owner": 2
+    },
+    {
+      "id": 2,
+      "owner": 4,
+      "name": "La fattoria dello zio Sam",
+      "legalOffice": "Via delle rane 12 Guspini",
+      "representative": "Zio Sam",
+      "vatNumber": "12345678910",
+      "fiscalCode": "12345678910",
+      "pec": "samuele.collu@gmail.com",
+      "email": "samuele.collu@gmail.com",
+      "webSite": "samuele.collu@gmail.com",
+      "registrationLink": "https://ittandisciu.org/1234456"
+    }
+  ],
+  "field": [
+    {
+      "id": 1,
+      "owner": 2,
+      "size": 100000,
+      "lat": 39.5687952,
+      "lon": 8.8914363,
+      "address": "Sanluri SU",
+      "company": "La fattoria dello zio Sam",
+      "cadastralData": "Foglio 4 mappale 1234",
+      "authorization": "Autorizazione concessa da...."
+    },
+    {
+      "id": 2,
+      "owner": 2,
+      "size": 200000,
+      "lat": 39.547323,
+      "lon": 8.747925,
+      "address": "San Gavino Monreale SU",
+      "company": "La fattoria dello zio Sam",
+      "cadastralData": "Foglio 4 mappale 4321",
+      "authorization": "Autorizazione concessa da...."
+    },
+    {
+      "id": 3,
+      "owner": 4,
+      "size": "10000",
+      "lat": "1234",
+      "lon": "2323",
+      "address": "Cagliari",
+      "company": "aaaaaa",
+      "cadastralData": "aaaaaa",
+      "authorization": "bbbbbbbbddd"
     }
   ]
 }
