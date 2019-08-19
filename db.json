@@ -46,20 +46,6 @@
       "access_token": "123456abcd"
     }
   ],
-  "backofficeRole": [
-    {
-      "id": 1,
-      "authority": "ROLE_ADMIN"
-    },
-    {
-      "id": 2,
-      "authority": "ROLE_FARMER"
-    },
-    {
-      "id": 3,
-      "authority": "ROLE_TRANSFORMER"
-    }
-  ],
   "backofficeUser": [
     {
       "id": "1",
@@ -202,6 +188,51 @@
       "cadastralData": "aaaaaa",
       "authorization": "bbbbbbbbddd"
     }
+  ],
+  "seed": [
+    {
+      "id": 1,
+      "owner": 2,
+      "productCode": "123456",
+      "lotCode": "123456",
+      "species": "Canapa Sativa",
+      "variety": "Power flower",
+      "country": "Italia",
+      "date": "2019-08-07",
+      "certificate": "Autorizazione concessa da...."
+    },
+    {
+      "id": 2,
+      "owner": 2,
+      "productCode": "654321",
+      "lotCode": "654321",
+      "species": "Canapa Sativa",
+      "variety": "Haze berry",
+      "country": "Italia",
+      "date": "2018-02-08",
+      "certificate": "Autorizazione concessa da...."
+    },
+    {
+      "id": 3,
+      "owner": 4,
+      "productCode": "554432",
+      "lotCode": "554432",
+      "species": "Canapa Sativa",
+      "variety": "Shining silver haze",
+      "country": "Italia",
+      "date": "2018-02-08",
+      "certificate": "Autorizazione concessa da...."
+    },
+    {
+      "id": 4,
+      "owner": 2,
+      "productCode": "111111",
+      "lotCode": "2222222",
+      "species": "Cannabis sativa",
+      "variety": "Neville’s haze",
+      "country": "Regno unito",
+      "date": "2019-08-01",
+      "certificate": "Autorizazione concessa da...."
+    }
   ]
-  
 }
