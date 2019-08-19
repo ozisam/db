@@ -202,18 +202,5 @@
       "cadastralData": "aaaaaa",
       "authorization": "bbbbbbbbddd"
     }
-  ],
-  "seed": [
-    {
-      "id": 1,
-      "owner": 2,
-      "productCode": "123456",
-      "lotCode": "123456",
-      "species": "Canapa Sativa",
-      "variety": "Power flower",
-      "country": "Italia",
-      "date": "2019-08-07",
-      "certificate": "Autorizazione concessa da...."
-    }
   ]
 }
