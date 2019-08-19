@@ -236,17 +236,6 @@
       "country": "Italia",
       "date": "2018-02-08",
       "certificate": "Autorizazione concessa da...."
-    },
-    {
-      "id": 4,
-      "owner": 2,
-      "productCode": "111111",
-      "lotCode": "2222222",
-      "species": "Cannabis sativa",
-      "variety": "Neville’s haze",
-      "country": "Regno unito",
-      "date": "2019-08-01",
-      "certificate": "Autorizazione concessa da...."
     }
   ]
 }
